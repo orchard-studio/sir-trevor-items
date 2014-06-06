@@ -295,7 +295,7 @@ var WORKSPACE = origin+ '/homestylecare/workspace/';
           'title': "Heading"
         },
 		 shopitem: {
-          'title': "ShopItem",
+          'title': "Shop Item",
 		  'upload_error': "There was a problem with your upload"
         }
       }
@@ -2086,6 +2086,9 @@ var WORKSPACE = origin+ '/homestylecare/workspace/';
       this.getTextBlock().html(SirTrevor.toHTML(data.text, this.type));
     }
   });
+  
+  
+
   /*
     Simple Image Block
   */  
